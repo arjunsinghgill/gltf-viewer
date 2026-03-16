@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASG | gltf viewer</title>
+    <link rel="stylesheet" type="text/css" href="/css/home">
+  </head>
+  <body>
+    <canvas id="three_canvas"></canvas>
+    <br>
+    <!-- Home Button -->
+    <div class="home_button"><a class="home_button" href="/">ASG home</a></div>
+    <!-- Page Title -->
+    <div><h2 id="title">glTF viewer</h2></div>
+    <!-- Load new glTF button -->
+    <button style="top:80px;" id="button_load_gltf" class="button_left">load glTF</button>
+    <!-- Auto Rotate the model button -->
+    <!-- <button style="top:130px;" id="button_auto_rotate">auto rotate</button> -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }
+}
+</script>
+    <script type="module" src="/js/home"></script>
+  </body>
+</html>
+
+
+
